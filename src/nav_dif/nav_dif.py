@@ -126,7 +126,7 @@ def logic_dif(obstacle):
 		else:
 			centroidVLineal, centroidVAngular = controlDifuso(p0, l0)
 			centroidVLineal = (centroidVLineal-0.2)*0.3
-			centroidVAngular = centroidVAngular*0.2
+			centroidVAngular = centroidVAngular*0.4
 			twist = Twist()
 			twist.linear.x = centroidVLineal
 			twist.angular.z = centroidVAngular
